@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Relatório - Flexbox Games</title>
+</head>
+<body>
+
+  <h1>Relatório da Atividade #09 - Flexbox Games</h1>
+
+  <section>
+    <h2>Jogos Escolhidos</h2>
+    <ul>
+      <li>
+        <strong>Flexbox Adventure</strong><br />
+        <a href="https://codingfantasy.com/games/flexboxadventure/play" target="_blank" rel="noopener noreferrer">https://codingfantasy.com/games/flexboxadventure/play</a><br />
+        <em>Escolhi esse jogo porque ele torna o aprendizado de Flexbox uma aventura com desafios crescentes e uma história que me motivou a continuar.</em>
+      </li>
+      <li>
+        <strong>Flexbox Froggy</strong><br />
+        <a href="https://flexboxfroggy.com/" target="_blank" rel="noopener noreferrer">https://flexboxfroggy.com/</a><br />
+        <em>Flexbox Froggy é um jogo visual simples que me ajudou a entender como posicionar elementos usando Flexbox de forma prática e divertida.</em>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Registro de Níveis - Flexbox Adventure</h2>
+
+    <article>
+      <h3>Nível 4</h3>
+      <img src="images/flexboxadventure-level4.png" alt="Print screen nível 4 Flexbox Adventure" />
+      <p>
+        Neste nível usei <code>justify-content</code> para posicionar os heróis sobre a comida. Foi importante entender como distribuir o espaço no eixo principal.
+      </p>
+    </article>
+
+    <article>
+      <h3>Nível 7</h3>
+      <img src="images/flexboxadventure-level7.png" alt="Print screen nível 7 Flexbox Adventure" />
+      <p>
+        Usei <code>align-items</code> para alinhar verticalmente os heróis. Isso me ajudou a entender o eixo cruzado e o alinhamento vertical no Flexbox.
+      </p>
+    </article>
+
+    <article>
+      <h3>Nível 10</h3>
+      <img src="images/flexboxadventure-level10.png" alt="Print screen nível 10 Flexbox Adventure" />
+      <p>
+        Aqui precisei usar <code>flex-direction</code> para mudar a direção dos itens e derrotar os inimigos. Testei <code>row-reverse</code> e <code>column-reverse</code> para ver como muda a ordem dos elementos.
+      </p>
+      <p><strong>Resumo das opções de flex-direction:</strong></p>
+      <ul>
+        <li><code>row</code>: itens alinhados em linha da esquerda para direita (padrão).</li>
+        <li><code>row-reverse</code>: mesma linha, invertida.</li>
+        <li><code>column</code>: itens alinhados em coluna de cima para baixo.</li>
+        <li><code>column-reverse</code>: coluna invertida.</li>
+      </ul>
+    </article>
+  </section>
+
+  <section>
+    <h2>Registro de Níveis - Flexbox Froggy</h2>
+
+    <article>
+      <h3>Nível 3</h3>
+      <img src="images/flexboxfroggy-level3.png" alt="Print screen nível 3 Flexbox Froggy" />
+      <p>
+        Para posicionar os sapinhos usei só <code>justify-content</code>. Foi interessante distribuir o espaço horizontalmente e testar os valores disponíveis da propriedade.
+      </p>
+    </article>
+
+    <article>
+      <h3>Nível 6</h3>
+      <img src="images/flexboxfroggy-level6.png" alt="Print screen nível 6 Flexbox Froggy" />
+      <p>
+        O objetivo era centralizar o sapinho usando <code>justify-content</code> e <code>align-items</code>. Aprendi a combinar os dois eixos para posicionar elementos.
+      </p>
+    </article>
+
+    <article>
+      <h3>Nível 10</h3>
+      <img src="images/flexboxfroggy-level10.png" alt="Print screen nível 10 Flexbox Froggy" />
+      <p>
+        Nível mais difícil até agora, precisei combinar <code>flex-direction</code> e <code>justify-content</code>. Foi confuso no início, mas depois entendi como a direção afeta o alinhamento.
+      </p>
+    </article>
+  </section>
+
+  <section>
+    <h2>Reflexão e Aplicação Prática</h2>
+
+    <h3>Propriedades CSS utilizadas</h3>
+    <ul>
+      <li><code>display: flex;</code> — ativa o Flexbox em um container.</li>
+      <li><code>flex-direction</code> — define se os itens ficam em linha ou coluna e sua ordem.</li>
+      <li><code>justify-content</code> — alinha itens no eixo principal (horizontal).</li>
+      <li><code>align-items</code> — alinha itens no eixo cruzado (vertical).</li>
+      <li><code>flex-wrap</code> — permite que itens quebrem linha.</li>
+      <li><code>align-content</code> — controla espaçamento entre linhas múltiplas.</li>
+      <li><code>order</code> — muda a ordem visual dos itens.</li>
+    </ul>
+
+    <h3>Aplicação prática do Flexbox</h3>
+    <p>
+      Para criar um menu responsivo, usaria Flexbox para alinhar os links horizontalmente, com <code>justify-content: space-between;</code> para distribuir os itens e <code>align-items: center;</code> para alinhamento vertical. Em telas menores, aplicaria <code>flex-wrap: wrap;</code> para que os links possam quebrar em várias linhas e manter o menu organizado.
+    </p>
+  </section>
+
+</body>
+</html>
